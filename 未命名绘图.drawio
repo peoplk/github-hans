@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T11:39:39.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="_-gsL9UX0Ztti6mULVuy" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-17T11:52:57.041Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="pqnZ1POXp2T41O8SFugT" version="15.7.4" type="github">
   <diagram id="nHt2l7om_b5uo5CxAVpc" name="第 1 页">
     <mxGraphModel dx="1502" dy="665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,7 +78,7 @@
           <mxGeometry x="260" y="370" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="btjo654vNNgG1zoDgZcX-40" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="364" y="270" width="50" height="330" as="geometry" />
+          <mxGeometry x="360" y="270" width="54" height="490" as="geometry" />
         </mxCell>
         <mxCell id="btjo654vNNgG1zoDgZcX-45" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -117,13 +117,97 @@
           <mxGeometry x="710" y="390" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="btjo654vNNgG1zoDgZcX-56" value="max:36MHZ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="530" y="390" width="110" height="30" as="geometry" />
+          <mxGeometry x="520" y="390" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="btjo654vNNgG1zoDgZcX-58" value="" style="line;strokeWidth=1;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=18;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="490" y="420" width="10" height="100" as="geometry" />
+          <mxGeometry x="470" y="420" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="btjo654vNNgG1zoDgZcX-65" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="460" y="450" width="40" height="20" as="geometry" />
+        <mxCell id="btjo654vNNgG1zoDgZcX-65" value="AHB1&lt;br style=&quot;font-size: 12px;&quot;&gt;预分频值为1&lt;br style=&quot;font-size: 12px;&quot;&gt;则该频率不变" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="450" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-71" value="定时器2—7" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="590" y="490" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-72" value="&lt;font style=&quot;font-size: 13px&quot;&gt;TIMCLK&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="490" y="500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-73" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="504.5" as="sourcePoint" />
+            <mxPoint x="580" y="504.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-196" value="&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; font-size: 12px&quot;&gt;AHB2&lt;/span&gt;&lt;br style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; font-size: 12px&quot;&gt;&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; font-size: 12px&quot;&gt;预分频器&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="370" y="500" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-197" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;strokeWidth=1;entryX=0.164;entryY=1.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="600" as="sourcePoint" />
+            <mxPoint x="736.4000000000001" y="600.81" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="601" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-198" value="APB2外设" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="750" y="570" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-199" value="max:72MHZ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="520" y="570" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-200" value="" style="line;strokeWidth=1;direction=south;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;fontSize=18;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="600" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-201" value="AHB1&lt;br style=&quot;font-size: 12px;&quot;&gt;预分频值为1&lt;br style=&quot;font-size: 12px;&quot;&gt;则该频率不变" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="630" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-202" value="定时器1&lt;br&gt;定时器8" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="600" y="660" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-203" value="&lt;font style=&quot;font-size: 13px&quot;&gt;TIMCLK&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="500" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-204" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="684.5" as="sourcePoint" />
+            <mxPoint x="590" y="684.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-208" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="364" y="599" as="sourcePoint" />
+            <mxPoint x="464" y="599" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-210" value="&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; font-size: 12px&quot;&gt;AHB3&lt;/span&gt;&lt;br style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; font-size: 12px&quot;&gt;&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; font-size: 12px&quot;&gt;预分频器&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="370" y="660" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-211" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="670" as="sourcePoint" />
+            <mxPoint x="620" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-212" value="Label" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;labelBackgroundColor=default;fontSize=13;strokeWidth=1;fillColor=none;gradientColor=none;" connectable="0" vertex="1" parent="btjo654vNNgG1zoDgZcX-211">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-213" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="759" as="sourcePoint" />
+            <mxPoint x="680" y="759" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="454" y="759" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-217" value="&lt;font style=&quot;font-size: 17px&quot;&gt;ADCLC&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="505" y="770" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-218" value="max:14MHZ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="520" y="730" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btjo654vNNgG1zoDgZcX-219" value="ADC1,2,3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="695" y="740" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
